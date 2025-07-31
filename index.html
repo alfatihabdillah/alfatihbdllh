@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Al-Fatih Abdillah - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script src="config.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-dark-900 text-dark-50 font-sans">
+    
+<nav class="fixed top-0 w-full z-50 bg-dark-900/90 backdrop-blur-sm border-b border-dark-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-16">
+<div class="text-xl font-bold text-primary"></div>
+<div class="hidden md:flex space-x-8">
+<a class="text-dark-300 hover:text-primary transition-colors duration-200" href="#home">Beranda</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200" href="#about">Tentang</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200" href="#skills">Keahlian</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200" href="#projects">Proyek</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200" href="#contact">Kontak</a>
+</div>
+<button class="md:hidden w-6 h-6 flex items-center justify-center" id="mobile-menu-btn">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</div>
+<div class="md:hidden hidden pb-4" id="mobile-menu">
+<div class="flex flex-col space-y-2">
+<a class="text-dark-300 hover:text-primary transition-colors duration-200 py-2" href="#home">Beranda</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200 py-2" href="#about">Tentang</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200 py-2" href="#skills">Keahlian</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200 py-2" href="#projects">Proyek</a>
+<a class="text-dark-300 hover:text-primary transition-colors duration-200 py-2" href="#contact">Kontak</a>
+</div>
+</div>
+</div>
+</nav>
+<section class="min-h-screen flex items-center justify-center relative overflow-hidden" id="home">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="text-center lg:text-left">
+<div class="w-48 h-48 mx-auto lg:mx-0 mb-8 rounded-full overflow-hidden border-4 border-primary/20">
+<img alt="Muhammad Al-Fatih Abdillah" class="w-full h-full object-cover object-top" src="foto 2.jpg"/>
+</div>
+<h1 class="text-4xl lg:text-6xl font-bold mb-4">
+              Muhammad Al-Fatih Abdillah
+            </h1>
+<p class="text-xl lg:text-2xl text-dark-300 mb-6 typing-animation" id="typing-text">
+</p>
+<p class="text-lg text-dark-400 mb-8 max-w-2xl">
+              Pelajar dengan minat besar di bidang Network Engineering dan UI/UX Design.
+              Memiliki pemahaman dasar tentang jaringan komputer, konfigurasi perangkat,
+              serta desain antarmuka yang sederhana dan fungsional.
+              Semangat belajar tinggi dan terus mengembangkan keterampilan teknis
+              maupun desain untuk menciptakan solusi digital yang efisien dan menarik.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+<a class="bg-primary hover:bg-primary/90 text-white px-8 py-3 !rounded-button font-medium transition-colors duration-200 whitespace-nowrap" href="https://drive.google.com/file/d/1UO_HvMGEfqAs_-1vk34FcZTz9L6gTbuX/view?usp=sharing">
+                Download CV
+        </a>
+<a class="border border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 !rounded-button font-medium transition-all duration-200 whitespace-nowrap" href="#projects">
+                Lihat Proyek
+    </a>
+</div>
+<div class="flex gap-6 justify-center lg:justify-start">
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://github.com">
+<i class="ri-github-fill text-xl"></i>
+</a>
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://linkedin.com">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="mailto:abdiakmalia1982@gmail.com">
+<i class="ri-mail-fill text-xl"></i>
+</a>
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://www.instagram.com/alfatihbdllh/">
+<i class="ri-instagram-fill text-xl"></i>
+</a>
+</div>
+</div>
+<div class="hidden lg:block">
+<div class="relative">
+<div class="w-full h-96 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center">
+<img alt="Workspace" class="w-full h-full object-cover object-top rounded-2xl" src="https://readdy.ai/api/search-image?query=modern%20workspace%20setup%20with%20multiple%20monitors%20showing%20code%2C%20clean%20desk%20with%20laptop%2C%20coffee%20cup%2C%20plants%2C%20warm%20lighting%2C%20developer%20environment%2C%20minimalist%20design%2C%20professional%20photography&amp;width=600&amp;height=400&amp;seq=workspace1&amp;orientation=landscape"/>
+</div>
+<div class="absolute -top-4 -right-4 w-24 h-24 bg-primary/20 rounded-full animate-pulse"></div>
+<div class="absolute -bottom-4 -left-4 w-16 h-16 bg-secondary/20 rounded-full animate-pulse delay-1000"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-dark-800/50" id="about">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="fade-in">
+<div class="w-full h-96 rounded-2xl overflow-hidden">
+<img alt="About Me" class="w-full h-full object-cover object-top" src="Foto 3.jpg"/>
+</div>
+</div>
+<div class="fade-in">
+<h2 class="text-3xl lg:text-4xl font-bold mb-6">
+              Tentang <span class="text-primary">Saya</span>
+</h2>
+<p class="text-lg text-dark-300 mb-6">
+             Saya adalah seorang pelajar yang memiliki ketertarikan besar dan dasar pengetahuan di bidang Teknologi Informasi,
+             khususnya dalam jaringan komputer dan desain antarmuka pengguna (UI/UX).
+            </p>
+<p class="text-lg text-dark-300 mb-6">
+             Saya telah mengikuti berbagai pelatihan serta memperoleh
+             sertifikasi dasar yang memperkuat pemahaman saya dalam bidang jaringan,
+             termasuk crimping kabel, instalasi fiber optic,
+             dan konfigurasi perangkat jaringan Cisco.
+            </p>
+<p class="text-lg text-dark-300 mb-8">
+              Di sisi desain, saya memiliki kemampuan dasar dalam membuat antarmuka yang sederhana dan fungsional,
+             serta memahami prinsip dasar pengalaman pengguna (UX).
+             Saya terbiasa menggunakan alat seperti Figma untuk membuat prototipe dan rancangan desain UI.
+             Saya terus mengembangkan keterampilan melalui praktik, proyek kecil, dan eksplorasi mandiri,
+             serta aktif mencari kesempatan untuk belajar dan berkontribusi di dunia teknologi.
+            </p>
+<div class="grid grid-cols-2 gap-6">
+<div class="text-center p-4 bg-dark-700/50 rounded-lg">
+<div class="text-3xl font-bold text-primary mb-2">25+</div>
+<div class="text-dark-300">Proyek Selesai</div>
+</div>
+<div class="text-center p-4 bg-dark-700/50 rounded-lg">
+<div class="text-3xl font-bold text-primary mb-2">3+</div>
+<div class="text-dark-300">Tahun Pengalaman</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20" id="skills">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16 fade-in">
+<h2 class="text-3xl lg:text-4xl font-bold mb-4">
+            Keahlian Saya
+          </h2>
+<p class="text-lg text-dark-300 max-w-2xl mx-auto">
+            Teknologi dan tools yang saya kuasai untuk mengembangkan solusi
+            digital yang berkualitas tinggi
+          </p>
+</div>
+<div class="grid md:grid-cols-3 gap-8 mb-16">
+<div class="fade-in">
+<h3 class="text-xl font-semibold mb-6 text-center">
+              UI/UX Designer
+            </h3>
+<div class="space-y-4">
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Figma</span>
+<span class="text-primary">95%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="95"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Framer</span>
+<span class="text-primary">75%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="75"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Adobe XD</span>
+<span class="text-primary">88%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="88"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">UXPin</span>
+<span class="text-primary">15%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="15"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fade-in">
+<h3 class="text-xl font-semibold mb-6 text-center">
+              Video Editing
+            </h3>
+<div class="space-y-4">
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">After Effects</span>
+<span class="text-primary">85%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="85"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Alight Motion</span>
+<span class="text-primary">92%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="92"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Blender</span>
+<span class="text-primary">82%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="82"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Capcut</span>
+<span class="text-primary">95%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="95"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fade-in">
+<h3 class="text-xl font-semibold mb-6 text-center">
+              Photo Editing
+            </h3>
+<div class="space-y-4">
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Adobe Photoshop</span>
+<span class="text-primary">82%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="82"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">Alight Motions</span>
+<span class="text-primary">95%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="95"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300">VSCO</span>
+<span class="text-primary">92%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="92"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between mb-2">
+<span class="text-dark-300"> Photopea</span>
+<span class="text-primary">75%</span>
+</div>
+<div class="w-full bg-dark-700 rounded-full h-2">
+<div class="skill-progress bg-primary h-2 rounded-full" data-width="75"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 fade-in">
+<div class="text-center p-4 bg-dark-800/50 rounded-lg hover:bg-dark-700/50 transition-colors duration-200">
+<div class="w-12 h-12 flex items-center justify-center mx-auto mb-3">
+<i class="ri-reactjs-line text-3xl text-primary"></i>
+</div>
+<div class="text-sm text-dark-300">React</div>
+</div>
+<div class="text-center p-4 bg-dark-800/50 rounded-lg hover:bg-dark-700/50 transition-colors duration-200">
+<div class="w-12 h-12 flex items-center justify-center mx-auto mb-3">
+<i class="ri-vuejs-line text-3xl text-primary"></i>
+</div>
+<div class="text-sm text-dark-300">Vue.js</div>
+</div>
+<div class="text-center p-4 bg-dark-800/50 rounded-lg hover:bg-dark-700/50 transition-colors duration-200">
+<div class="w-12 h-12 flex items-center justify-center mx-auto mb-3">
+<i class="ri-nodejs-line text-3xl text-primary"></i>
+</div>
+<div class="text-sm text-dark-300">Node.js</div>
+</div>
+<div class="text-center p-4 bg-dark-800/50 rounded-lg hover:bg-dark-700/50 transition-colors duration-200">
+<div class="w-12 h-12 flex items-center justify-center mx-auto mb-3">
+<i class="ri-database-line text-3xl text-primary"></i>
+</div>
+<div class="text-sm text-dark-300">Database</div>
+</div>
+<div class="text-center p-4 bg-dark-800/50 rounded-lg hover:bg-dark-700/50 transition-colors duration-200">
+<div class="w-12 h-12 flex items-center justify-center mx-auto mb-3">
+<i class="ri-cloud-line text-3xl text-primary"></i>
+</div>
+<div class="text-sm text-dark-300">Cloud</div>
+</div>
+<div class="text-center p-4 bg-dark-800/50 rounded-lg hover:bg-dark-700/50 transition-colors duration-200">
+<div class="w-12 h-12 flex items-center justify-center mx-auto mb-3">
+<i class="ri-git-branch-line text-3xl text-primary"></i>
+</div>
+<div class="text-sm text-dark-300">Git</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 bg-dark-800/50" id="projects">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16 fade-in">
+<h2 class="text-3xl lg:text-4xl font-bold mb-4">
+            Proyek Terbaru
+          </h2>
+<p class="text-lg text-dark-300 max-w-2xl mx-auto">
+            Beberapa proyek yang telah saya kerjakan dengan teknologi modern dan
+            best practices
+          </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="project-card bg-dark-800 rounded-2xl overflow-hidden fade-in">
+<div class="h-48 overflow-hidden">
+<img alt="E-Commerce Platform" class="w-full h-full object-cover object-top" src="FitSync.jpg"/>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-3">Mobile App - FitSync</h3>
+<p class="text-dark-300 mb-4">
+               Sebuah aplikasi terintegrasi yang dirancang untuk membantu kamu menjalani hidup lebih sehat
+                aktif, dan seimbang. Dengan fitur lengkap yang mendukung setiap aspek kesehatanmu
+              </p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Design</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Mobile-App</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Figma</span>
+</div>
+<div class="flex gap-4">
+<a class="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200" href="#https://www.figma.com/design/OPfiGpcR2Zsov3Ymi4KsQS/Untitled?node-id=0-1&amp;t=pCktyjIAo4dpTzCt-1">
+<i class="ri-external-link-line"></i>
+<span>Figma Design</span>
+</a>
+<a class="flex items-center gap-2 text-dark-300 hover:text-primary transition-colors duration-200" href="#https://www.figma.com/design/OPfiGpcR2Zsov3Ymi4KsQS/Untitled?node-id=0-1&amp;t=pCktyjIAo4dpTzCt-1">
+</a>
+</div>
+</div>
+</div>
+<div class="project-card bg-dark-800 rounded-2xl overflow-hidden fade-in">
+<div class="h-48 overflow-hidden">
+<img alt="Task Management App" class="w-full h-full object-cover object-top" src="Demo VId.jpg"/>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-3">Demo - Palwaga</h3>
+<p class="text-dark-300 mb-4">
+               Sebuah kegiatan kreatif yang berfokus pada proses editing video,
+               dirancang untuk mendokumentasikan dan mengekspresikan setiap momen
+               penting dalam perjalanan Sub-Organisasi PALWAGA.
+              
+
+
+              </p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Capcut</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Video</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Editing</span>
+</div>
+<div class="flex gap-4">
+<a class="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200" href="#ig telkom/palwa nanti">
+</a>
+<a class="flex items-center gap-2 text-dark-300 hover:text-primary transition-colors duration-200" href="#">
+<i class="ri-instagram-line"></i>
+<span>Explore</span>
+</a>
+</div>
+</div>
+</div>
+<div class="project-card bg-dark-800 rounded-2xl overflow-hidden fade-in">
+<div class="h-48 overflow-hidden">
+<img alt="Financial Dashboard" class="w-full h-full object-cover object-top" src="Web MIC.jpg"/>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-3">Web Design</h3>
+<p class="text-dark-300 mb-4">
+                Sebuah desain web interaktif yang dibuat untuk mendokumentasikan dan
+                mempresentasikan kegiatan Projek Penguatan Profil Pelajar Pancasila (P5) di SMK Telkom Malang.
+                
+              </p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Design</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Web Design</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Figma</span>
+</div>
+<div class="flex gap-4">
+<a class="flex items-center gap-2 text-dark-300 hover:text-primary transition-colors duration-200" href="#ri-external-link-line">
+<i class="ri-external-link-line"></i>
+<span>Figma Design</span>
+</a>
+</div>
+</div>
+</div>
+<div class="project-card bg-dark-800 rounded-2xl overflow-hidden fade-in">
+<div class="h-48 overflow-hidden">
+<img alt="Social Media Platform" class="w-full h-full object-cover object-top" src="https://readdy.ai/api/search-image?query=social%20media%20web%20platform%20interface%20on%20laptop%2C%20user%20profiles%2C%20news%20feed%2C%20messaging%20system%2C%20modern%20social%20networking%20design%2C%20clean%20UI%20layout&amp;width=400&amp;height=300&amp;seq=project4&amp;orientation=landscape"/>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-3">Social Media Platform</h3>
+<p class="text-dark-300 mb-4">
+                Platform media sosial dengan fitur real-time chat, content
+                sharing, dan advanced privacy controls.
+              </p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">React</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Socket.io</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">AWS</span>
+</div>
+<div class="flex gap-4">
+<a class="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200" href="#">
+<i class="ri-external-link-line"></i>
+<span>Live Demo</span>
+</a>
+<a class="flex items-center gap-2 text-dark-300 hover:text-primary transition-colors duration-200" href="#">
+<i class="ri-github-line"></i>
+<span>Source Code</span>
+</a>
+</div>
+</div>
+</div>
+<div class="project-card bg-dark-800 rounded-2xl overflow-hidden fade-in">
+<div class="h-48 overflow-hidden">
+<img alt="Learning Management System" class="w-full h-full object-cover object-top" src="https://readdy.ai/api/search-image?query=learning%20management%20system%20web%20interface%20on%20computer%2C%20online%20education%20platform%2C%20course%20materials%2C%20student%20dashboard%2C%20modern%20e-learning%20design&amp;width=400&amp;height=300&amp;seq=project5&amp;orientation=landscape"/>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-3">
+                Learning Management System
+              </h3>
+<p class="text-dark-300 mb-4">
+                Platform pembelajaran online dengan fitur video streaming, quiz
+                interaktif, dan progress tracking untuk siswa.
+              </p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Next.js</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Prisma</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Stripe</span>
+</div>
+<div class="flex gap-4">
+<a class="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200" href="#">
+<i class="ri-external-link-line"></i>
+<span>Live Demo</span>
+</a>
+<a class="flex items-center gap-2 text-dark-300 hover:text-primary transition-colors duration-200" href="#">
+<i class="ri-github-line"></i>
+<span>Source Code</span>
+</a>
+</div>
+</div>
+</div>
+<div class="project-card bg-dark-800 rounded-2xl overflow-hidden fade-in">
+<div class="h-48 overflow-hidden">
+<img alt="Inventory Management" class="w-full h-full object-cover object-top" src="https://readdy.ai/api/search-image?query=inventory%20management%20system%20web%20application%20interface%2C%20warehouse%20dashboard%2C%20stock%20tracking%2C%20barcode%20scanning%2C%20modern%20business%20software%20design&amp;width=400&amp;height=300&amp;seq=project6&amp;orientation=landscape"/>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-3">Inventory Management</h3>
+<p class="text-dark-300 mb-4">
+                Sistem manajemen inventori dengan barcode scanning, automated
+                reordering, dan comprehensive reporting.
+              </p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Laravel</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">MySQL</span>
+<span class="px-3 py-1 bg-primary/20 text-primary rounded-full text-sm">Docker</span>
+</div>
+<div class="flex gap-4">
+<a class="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors duration-200" href="#">
+<i class="ri-external-link-line"></i>
+<span>Live Demo</span>
+</a>
+<a class="flex items-center gap-2 text-dark-300 hover:text-primary transition-colors duration-200" href="#">
+<i class="ri-github-line"></i>
+<span>Source Code</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20" id="contact">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16 fade-in">
+<h2 class="text-3xl lg:text-4xl font-bold mb-4">
+            Mari <span class="text-primary">Berkolaborasi</span>
+</h2>
+<p class="text-lg text-dark-300 max-w-2xl mx-auto">
+            Tertarik untuk bekerja sama? Jangan ragu untuk menghubungi saya.
+            Saya selalu terbuka untuk proyek menarik dan peluang kolaborasi
+            baru.
+          </p>
+</div>
+<div class="grid lg:grid-cols-2 gap-12">
+<div class="fade-in">
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/20 rounded-full">
+<i class="ri-mail-line text-xl text-primary"></i>
+</div>
+<div>
+<div class="font-semibold">Email</div>
+<div class="text-dark-300">abdiakmalia1982@gmail.com</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/20 rounded-full">
+<i class="ri-phone-line text-xl text-primary"></i>
+</div>
+<div>
+<div class="font-semibold">Telepon</div>
+<div class="text-dark-300">+62 xxx xxx xxx</div>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/20 rounded-full">
+<i class="ri-map-pin-line text-xl text-primary"></i>
+</div>
+<div>
+<div class="font-semibold">Lokasi</div>
+<div class="text-dark-300">Malang, Indonesia</div>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<h3 class="text-xl font-semibold mb-4">Ikuti Saya</h3>
+<div class="flex gap-4">
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://github.com">
+<i class="ri-github-fill text-xl"></i>
+</a>
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://linkedin.com">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://twitter.com">
+<i class="ri-twitter-fill text-xl"></i>
+</a>
+<a class="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary rounded-full transition-colors duration-200" href="https://www.instagram.com/alfatihbdllh/">
+<i class="ri-instagram-fill text-xl"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="fade-in">
+<form class="space-y-6" id="contact-form">
+<div>
+<label class="block text-sm font-medium mb-2" for="name">Nama Lengkap</label>
+<input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50" id="name" name="name" required="" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium mb-2" for="email">Email</label>
+<input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50" id="email" name="email" required="" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium mb-2" for="subject">Subjek</label>
+<input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50" id="subject" name="subject" required="" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium mb-2" for="message">Pesan</label>
+<textarea class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50 resize-none" id="message" name="message" required="" rows="5"></textarea>
+</div>
+<button class="w-full bg-primary hover:bg-primary/90 text-white px-8 py-3 !rounded-button font-medium transition-colors duration-200 whitespace-nowrap" type="submit">
+                Kirim Pesan
+              </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-dark-800 border-t border-dark-700 py-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<div class="text-dark-300 mb-4 md:mb-0">
+            © 2025 Muhammad Al-Fatih Abdillah. All rights reserved.
+          </div>
+<div class="flex gap-6">
+<a class="text-dark-400 hover:text-primary transition-colors duration-200" href="https://github.com">
+<i class="ri-github-fill text-xl"></i>
+</a>
+<a class="text-dark-400 hover:text-primary transition-colors duration-200" href="https://linkedin.com">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+<a class="text-dark-400 hover:text-primary transition-colors duration-200" href="mailto:ahmad@example.com">
+<i class="ri-mail-fill text-xl"></i>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<button class="fixed bottom-8 right-8 w-12 h-12 bg-primary hover:bg-primary/90 text-white rounded-full shadow-lg transition-all duration-200 opacity-0 invisible" id="back-to-top">
+<i class="ri-arrow-up-line text-xl"></i>
+</button>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+  </body>
+</html>

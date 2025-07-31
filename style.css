@@ -1,0 +1,11 @@
+
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.typing-animation::after { content: '|'; animation: blink 1s infinite; }
+@keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+.fade-in { opacity: 0; transform: translateY(2rem); transition: all 0.6s ease-out; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+.skill-progress { width: 0%; transition: width 1.5s ease-out; }
+.project-card { transition: all 0.3s ease; }
+.project-card:hover { transform: translateY(-0.5rem); }
+html { scroll-behavior: smooth; }
+.parallax { transform: translateY(0); transition: transform 0.1s ease-out; }

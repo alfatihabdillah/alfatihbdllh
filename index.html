@@ -559,25 +559,37 @@
 </div>
 <div class="fade-in">
 <form class="space-y-6" id="contact-form" action="https://formspree.io/f/mldllnqd" method="POST">
-<div>
-<label class="block text-sm font-medium mb-2" for="name">Nama Lengkap</label>
-<input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50" id="name" name="name" required="" type="text"/>
-</div>
-<div>
-<label class="block text-sm font-medium mb-2" for="email">Email</label>
-<input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50" id="email" name="email" required="" type="email"/>
-</div>
-<div>
-<label class="block text-sm font-medium mb-2" for="subject">Subjek</label>
-<input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50" id="subject" name="subject" required="" type="text"/>
-</div>
-<div>
-<label class="block text-sm font-medium mb-2" for="message">Pesan</label>
-<textarea class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50 resize-none" id="message" name="message" required="" rows="5"></textarea>
-</div>
-<button class="w-full bg-primary hover:bg-primary/90 text-white px-8 py-3 !rounded-button font-medium transition-colors duration-200 whitespace-nowrap" type="submit">
-                Kirim Pesan
-              </button>
+  <!-- Honeypot untuk anti-spam -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <div>
+    <label class="block text-sm font-medium mb-2" for="name">Nama Lengkap</label>
+    <input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50"
+           id="name" name="name" required type="text" autocomplete="name">
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium mb-2" for="email">Email</label>
+    <input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50"
+           id="email" name="email" required type="email" autocomplete="email">
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium mb-2" for="subject">Subjek</label>
+    <input class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50"
+           id="subject" name="subject" required type="text" autocomplete="off">
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium mb-2" for="message">Pesan</label>
+    <textarea class="w-full px-4 py-3 bg-dark-800 border border-dark-700 rounded-lg focus:outline-none focus:border-primary transition-colors duration-200 text-dark-50 resize-none"
+              id="message" name="message" required rows="5" autocomplete="off"></textarea>
+  </div>
+
+  <button class="w-full bg-primary hover:bg-primary/90 text-white px-8 py-3 !rounded-button font-medium transition-colors duration-200 whitespace-nowrap"
+          type="submit">
+    Kirim Pesan
+  </button>
 </form>
 </div>
 </div>

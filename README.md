@@ -56,11 +56,6 @@
 ### 📊 GitHub Stats & Activity
 
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=alfatihabdillah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alfatihabdillah&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
-</p>
-
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alfatihabdillah&theme=tokyonight&hide_border=true" alt="Activity Graph" width="100%" />

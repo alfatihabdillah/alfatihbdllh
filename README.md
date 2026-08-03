@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=700&size=22&pause=1000&color=38BDF8&background=0F172A&center=true&vcenter=true&width=600&height=70&lines=Hi+there!+%F0%9F%90%A7+I'm+an+ITNSA+Engineer;Specialized+in+Network+%26+System+Administration;Building+Secure+%26+Scalable+Infrastructure" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=700&size=22&pause=1000&color=38BDF8&background=0F172A&center=true&vcenter=true&width=600&height=70&lines=Hi+there!+%F0%9F%90%A7+I'm+Muhammad+Al-Fatih+Abdillah;Junior+Network+%26+System+Administration;Building+Secure+%26+Scalable+Infrastructure" alt="Typing SVG" />
 </div>
 
 <br />
@@ -67,13 +67,11 @@
 </p>
 
 <!-- CONTRIBUTION SNAKE ANIMATION -->
-### 🐍 Contribution Graph
+### 🧊 Isometric Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alfatihabdillah/alfatihabdillah/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alfatihabdillah&theme=tokyonight" width="100%" />
 </p>
-
----
 
 ### 📬 Connect with Me
 

@@ -1,7 +1,16 @@
-# Hi there, I'm [Nama Kamu] 👋
-### 🛡️ IT Network & System Administrator
+<!-- HEADER DENGAN ANIMASI KETIK (TYPING EFFECT) -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vcenter=true&width=500&lines=Hi+there!+%F0%9F%90%A7;I'm+an+ITNSA+Engineer;Network+%26+System+Administrator;Cloud+%26+Infrastructure+Enthusiast" alt="Typing SVG" />
+</div>
 
-> *“Automating systems, securing networks, and keeping downtime at 0%.”*
+<blockquote align="center">
+  <i>“Automating systems, securing networks, and keeping downtime at 0%.”</i>
+</blockquote>
+
+<!-- VISITOR COUNTER BADGE -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=USERNAME_KAMU&label=Profile%20Views&color=0e75a0&style=flat-square" alt="Visitor Count" />
+</p>
 
 ---
 
@@ -40,15 +49,24 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Stats & Activity
 
+<!-- STATS CARDS -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=USERNAME_KAMU&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_KAMU&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
+<!-- DYNAMIC ACTIVITY GRAPH -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME_KAMU&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME_KAMU&theme=tokyonight&hide_border=true" alt="Activity Graph" width="100%" />
+</p>
+
+<!-- CONTRIBUTION SNAKE ANIMATION -->
+### 🐍 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/USERNAME_KAMU/USERNAME_KAMU/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---

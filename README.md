@@ -55,23 +55,17 @@
 
 ### 📊 GitHub Stats & Activity
 
-<!-- STATS CARDS -->
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=alfatihabdillah&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alfatihabdillah&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
-<!-- DYNAMIC ACTIVITY GRAPH -->
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=alfatihabdillah&theme=tokyonight&hide_border=true" alt="Activity Graph" width="100%" />
 </p>
 
-<!-- CONTRIBUTION SNAKE ANIMATION -->
-### 🧊 Isometric Contribution Graph
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=alfatihabdillah&theme=tokyonight" width="100%" />
-</p>
 
 ### 📬 Connect with Me
 

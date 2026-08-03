@@ -1,7 +1,9 @@
-<!-- HEADER DENGAN ANIMASI KETIK (TYPING EFFECT) -->
+<!-- HEADER DENGAN ANIMASI KETIK & BACKGROUND DINAMIS -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vcenter=true&width=500&lines=Hi+there!+%F0%9F%90%A7;I'm+an+ITNSA+Engineer;Network+%26+System+Administrator;Cloud+%26+Infrastructure+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=700&size=22&pause=1000&color=38BDF8&background=0F172A&center=true&vcenter=true&width=600&height=70&lines=Hi+there!+%F0%9F%90%A7+I'm+an+ITNSA+Engineer;Specialized+in+Network+%26+System+Administration;Building+Secure+%26+Scalable+Infrastructure" alt="Typing SVG" />
 </div>
+
+<br />
 
 <blockquote align="center">
   <i>“Automating systems, securing networks, and keeping downtime at 0%.”</i>
